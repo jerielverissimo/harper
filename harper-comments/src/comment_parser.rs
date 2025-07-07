@@ -106,7 +106,7 @@ impl CommentParser {
             "toml" => "toml",
             "ts" => "typescript",
             "tsx" => "typescriptreact",
-            "clj" | "cljs" => "clojure",
+            "clj" | "cljs" | "cljc" | "bb" => "clojure",
             _ => return None,
         })
     }
